@@ -1,0 +1,113 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+logs/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.local
+
+# Spring Boot 配置文件（包含敏感信息）
+application-dev.yml
+application-prod.yml
+application-test.yml
+application-local.yml
+application-local.properties
+
+# Cookies & Session files
+cookies.txt
+*.cookie
+*.session
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Frontend build
+cc_survey_frontend/dist/
+
+# Backend build
+cc_survey_backend/target/
+
+# Logs
+cc_survey_backend/logs/
+
+# Claude Code 工作目录
+.claude/
+
+# 临时测试文件
+temp/
+test_api.sh
+
+# 敏感信息文件
+**/secrets/
+**/credentials/
